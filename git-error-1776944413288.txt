@@ -1,0 +1,8 @@
+> git push origin main:main
+remote: error: Trace: a69023b2ed856125df6ffb9ff1d8662928485cda8cf2ee30cb1b7e4a00ce20b9        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File quarto-installer.msi is 133.68 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/Eliasbahram/prototype.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/Eliasbahram/prototype.git'
