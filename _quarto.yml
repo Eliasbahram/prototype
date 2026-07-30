@@ -20,6 +20,10 @@ website:
       - href: wikidata-item.ipynb
         text: Item Profile
 
+author:
+  - name: Elias Bahram
+    orcid: "0009-0007-3695-5959"
+
 format:
   html:
     theme: cosmo
@@ -27,6 +31,3 @@ format:
 
 execute:
   freeze: auto
-author:
-  - name: Elias Bahram
-    orcid: 0009-0007-3695-5959
