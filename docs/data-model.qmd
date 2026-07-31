@@ -1,0 +1,32 @@
+---
+title: "Artwork Data Model"
+author: "Elias Bahram"
+date: today
+---
+
+# Bottom-up Data Model: Artwork in an Exhibition
+
+This data model describes the minimum information required to represent an artwork that is part of a museum exhibition.
+
+| Property | Wikidata Property | Description | Data Type |
+|----------|-------------------|-------------|-----------|
+| Instance of | P31 | Artwork | Item |
+| Title | P1476 | Title of the artwork | Monolingual text |
+| Creator | P170 | Artist | Item |
+| Inception | P571 | Date of creation | Time |
+| Collection | P195 | Museum collection | Item |
+| Location | P276 | Exhibition location | Item |
+| Image | P18 | Image of the artwork | Commons media |
+| Inventory number | P217 | Museum inventory number | External identifier |
+
+## Notes
+
+This model was developed using a bottom-up approach by analysing museum exhibition data and comparing it with Wikidata.
+
+The model follows the principles of:
+
+- Wikidata
+- CIDOC CRM
+- Linked Art
+
+The goal is to describe the minimum metadata required for an artwork within a Linked Open Exhibition.
