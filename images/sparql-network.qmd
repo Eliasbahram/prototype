@@ -29,4 +29,4 @@ SELECT ?property ?propertyLabel ?value ?valueLabel WHERE {
 ```
 
 ´´
-![](sparql-network.png){width=90%}
+<img src="sparql-network.png" alt="SPARQL Network Graph" width="90%">
