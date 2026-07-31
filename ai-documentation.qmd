@@ -1,0 +1,34 @@
+---
+title: "AI Documentation"
+author: "Elias Bahram"
+date: today
+---
+
+# AI Documentation
+
+## AI tools used
+
+- ChatGPT (GPT-5)
+
+## Tasks
+
+- Assisted with Wikidata editing
+- Helped create the artwork data model
+- Helped solve Git and GitHub issues
+- Helped prepare Quarto pages
+- Explained SPARQL and project workflow
+
+## Advantages
+
+- Faster understanding of Linked Open Data concepts
+- Helped identify and fix technical problems
+- Generated initial drafts that could be improved
+
+## Limitations
+
+- All AI-generated content must be checked before use.
+- Wikidata entries and SPARQL queries require manual verification.
+
+## Attribution
+
+AI assistance was used as a learning and coding assistant. All final edits and decisions were reviewed by the student.
