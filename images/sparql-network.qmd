@@ -1,0 +1,32 @@
+---
+title: "SPARQL Network"
+author: "Elias Bahram"
+date: today
+---
+
+# SPARQL Network
+
+The following network graph visualizes the relationships of the Wikidata item **Q138572994** (*The Adventure of Abstraction*).
+
+The graph was generated using the Wikidata Query Service.
+
+## SPARQL Query
+
+```sparql
+SELECT ?property ?propertyLabel ?value ?valueLabel WHERE {
+  BIND(wd:Q138572994 AS ?item)
+
+  ?item ?p ?statement .
+  ?property wikibase:claim ?p .
+  ?statement ?ps ?value .
+
+  ?property wikibase:statementProperty ?ps .
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en,de".
+  }
+}
+```
+
+´´
+![](sparql-network.png){width=90%}
